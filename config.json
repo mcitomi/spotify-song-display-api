@@ -1,0 +1,6 @@
+{
+    "port" : 8181,
+    "client_id" : "",
+    "client_secret" : "",
+    "callback" : "http://localhost:8181/api/callback"
+}

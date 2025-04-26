@@ -1,0 +1,16 @@
+{
+  "name": "spotify-song-display-api",
+  "module": "src/index.ts",
+  "version": "0.1",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bun-routes-cors": "^0.2.3"
+  }
+}
