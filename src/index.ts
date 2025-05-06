@@ -65,7 +65,7 @@ Bun.serve({
                 if (body) {
                     return new Response(JSON.stringify(body));
                 } else {
-                    return new Response(`{ "error" : "no item found" }`, { status: 400 });
+                    return new Response(`{ "error" : "no item found" }`, { status: 404 });
                 }
             }
         },
