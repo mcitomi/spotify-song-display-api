@@ -77,4 +77,4 @@ Bun.serve({
     })
 });
 
-console.log(`Spotify Song Display api started on port ${port}`);
+console.log(`Spotify Song Display api started on port http://localhost:${port}/ `);
